@@ -4,7 +4,7 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
-          Welcome to the Animal Rescue League        
+          Welcome to Virtual Bank       
         </h1>
         <h2 class="subtitle">
           Make sure you check out our upcoming events below
@@ -32,14 +32,14 @@ export default {
 <style lang="scss" scoped>
   .hero {  
     text-align: center;
-    background-image: url('https://cdn.auth0.com/blog/vue-meetup/event-banner.png');
+    background-image: url('https://images.pexels.com/photos/1602726/pexels-photo-1602726.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 400px;
   }
   .hero-body .title {
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 4px 4px rgba(65, 45, 45, 0.6);
     padding: 40px 0 20px 0;
     font-size: 60px;
   }
