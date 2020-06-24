@@ -32,8 +32,9 @@ export default {
 <style lang="scss" scoped>
   .hero {  
     text-align: center;
-    background-image: url('https://images.pexels.com/photos/1602726/pexels-photo-1602726.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
-    background-size: cover;
+    background-color: #6A95A8;
+    background-image: url('/images/bank-hero.jpg');
+    // background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 400px;
