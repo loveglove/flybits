@@ -2,7 +2,7 @@
 <div class="home">
   <section class="hero is-dark">
     <div class="hero-body">
-      <div class="container">
+      <div class="banner container">
         <h1 class="title">
           Welcome to Virtual Bank       
         </h1>
@@ -30,14 +30,26 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+  .tb1{
+    border:1px solid red;
+  }
+  .tb2{
+    border:1px solid blue;
+  }
   .hero {  
-    text-align: center;
+    text-align: left;
     background-color: #6A95A8;
     background-image: url('/images/bank-hero.jpg');
     // background-size: cover;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 550px;
+  }
+  .banner{
+    float:left;
+    width:700px;
+    padding-left:20px;
   }
   .hero-body .title {
     text-shadow: 4px 4px 4px rgba(65, 45, 45, 0.6);
@@ -54,7 +66,6 @@ export default {
     margin-right: auto;
     width: 100%;
     position: absolute;
-    bottom: -150px;
     .button {
       margin-right: 50px;
       padding-left: 50px;
